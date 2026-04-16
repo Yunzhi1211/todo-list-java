@@ -1,37 +1,42 @@
-# 待办事项列表 - Java版
+# Todo List - Java Edition
 
-一个简单的命令行待办事项管理程序。
+[English](README.md) | [简体中文](README_zh.md)
 
-## 功能特性
-- ✅ 添加任务
-- 📋 查看任务列表  
-- ⚡ 标记任务完成状态
-- 🗑️ 删除任务
+---
 
-## 项目结构
+
+A simple command-line interface (CLI) application for managing tasks.
+
+## Features
+- ✅ Add tasks
+- 📋 View task list
+- ⚡ Toggle task completion status
+- 🗑️ Delete tasks
+
+## Project Structure
 ```
 src/
-├── Main.java      # 主程序
-├── TodoItem.java  # 任务项类
-└── TodoList.java  # 任务列表管理
+├── Main.java      # Application entry point
+├── TodoItem.java  # Task item data model
+└── TodoList.java  # Task list management logic
 ```
 
-## 使用方法
+## Usage
 ```bash
-# 运行程序
+# Run the application
 java -jar TodoList.jar
-# 或双击run_utf8.bat
+# Or double-click run_utf8.bat
 ```
 
-## 运行示例
+## Running Example
 ```
-欢迎使用命令行待办事项列表！
+Welcome to the Command-Line Todo List!
 
-请选择操作：
-  add    - 添加任务
-  list   - 列出所有任务  
-  toggle - 标记/取消任务
-  remove - 删除任务
-  quit   - 退出程序
-请输入命令:
+Please select an action:
+  add    - Add a task
+  list   - List all tasks
+  toggle - Mark/Unmark a task
+  remove - Delete a task
+  quit   - Exit the program
+Enter command:
 ```
